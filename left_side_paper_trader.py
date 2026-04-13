@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3
 import os
 import json
 import time
@@ -234,6 +235,13 @@ def generate_dashboard(portfolio, current_market_data):
 # 🚀 主程序入口 (交易撮合枢纽)
 # ==========================================
 if __name__ == '__main__':
+    import signal
+    def _timeout_handler(signum, frame):
+        import sys
+        print("⚠️ 脚本执行超过5分钟，强制退出", file=sys.stderr)
+        sys.exit(1)
+    signal.signal(signal.SIGALRM, _timeout_handler)
+    signal.alarm(300)  # 5分钟超时
     print("===========================================")
     print("📡 左侧伏击：实盘/模拟交易中枢已启动...")
     print("===========================================")
@@ -249,12 +257,12 @@ if __name__ == '__main__':
     meta_df['code'] = meta_df['code'].astype(str).str.replace(r'\.0$', '', regex=True).str.zfill(6)
     stock_list = meta_df.to_dict('records')
 
-    client = Quotes.factory(market='std', multithread=True, heartbeat=True)
+    client = Quotes.factory(market='std', multithread=True)
     market_data = {}
     valid_buys = []
     
     print("🔍 正在扫描全市场恐慌盘与触轨信号...")
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor(max_workers=4) as executor:
         futures = {executor.submit(analyze_stock, stock, client): stock['code'] for stock in stock_list}
         for future in as_completed(futures):
             res = future.result()
@@ -262,7 +270,7 @@ if __name__ == '__main__':
                 market_data[res['code']] = res
                 if res['buy_signal']:
                     valid_buys.append(res)
-            time.sleep(0.01)
+            
 
     # ==========================
     # 🛑 处理卖出 (剔除了超时强平，纯靠技术指标)
