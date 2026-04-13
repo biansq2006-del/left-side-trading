@@ -257,12 +257,12 @@ if __name__ == '__main__':
     meta_df['code'] = meta_df['code'].astype(str).str.replace(r'\.0$', '', regex=True).str.zfill(6)
     stock_list = meta_df.to_dict('records')
 
-    client = Quotes.factory(market='std', multithread=True)
+    client = Quotes.factory(market='std', heartbeat=False)
     market_data = {}
     valid_buys = []
     
     print("🔍 正在扫描全市场恐慌盘与触轨信号...")
-    with ThreadPoolExecutor(max_workers=4) as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         futures = {executor.submit(analyze_stock, stock, client): stock['code'] for stock in stock_list}
         for future in as_completed(futures):
             res = future.result()
