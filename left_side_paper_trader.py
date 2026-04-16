@@ -106,7 +106,7 @@ def analyze_stock(stock_info, client):
         bias_ok = curr['BIAS_VAL'] < -BIAS_THRESH
         b_cond1 = (curr['最低'] <= curr['LOWER']) and bias_ok
         b_cond2 = (curr['收盘'] > curr['开盘']) and ((curr['收盘'] - curr['最低']) > (curr['最高'] - curr['收盘']))
-        buy_signal = b_cond1 and b_cond2
+        buy_signal = bias_ok and b_cond1 and b_cond2
 
         # --- 卖出条件判定 (S_落袋) ---
         s_cond1 = curr['最高'] >= curr['UPPER']
