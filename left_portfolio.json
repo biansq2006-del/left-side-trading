@@ -877,5 +877,10 @@
             "fees": 5.00268,
             "reason": "B_伏击 (乖离率:-10.2%)"
         }
-    ]
+    ],
+    "_cache_replay": {
+        "last_processed_date": "2026-07-22",
+        "source": "Baostock本地完整日线缓存",
+        "updated_at": "2026-07-23T11:07:12"
+    }
 }
