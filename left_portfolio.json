@@ -1,6 +1,6 @@
 {
     "initial_capital": 1000000.0,
-    "cash": 668.8556300002965,
+    "cash": 134522.0456300003,
     "holdings": {
         "688180": {
             "name": "君实生物",
@@ -129,14 +129,6 @@
             "buy_date": "2026-07-01",
             "cost": 273.00268,
             "buy_day_low": 2.6
-        },
-        "600363": {
-            "name": "联创光电",
-            "shares": 7300,
-            "buy_price": 20.55,
-            "buy_date": "2026-08-11",
-            "cost": 150054.0,
-            "buy_day_low": 19.22
         }
     },
     "history": [
@@ -897,11 +889,22 @@
             "shares": 7300,
             "fees": 39.0,
             "reason": "B_伏击 (乖离率:-18.8%)"
+        },
+        {
+            "time": "2026-08-19 15:00:00",
+            "action": "SELL",
+            "code": "600363",
+            "name": "联创光电",
+            "price": 18.35,
+            "shares": 7300,
+            "fees": 101.81,
+            "pnl": -16200.809999999998,
+            "reason": "破位止损 (跌破抄底价 ¥19.22)"
         }
     ],
     "_cache_replay": {
-        "last_processed_date": "2026-08-18",
+        "last_processed_date": "2026-08-19",
         "source": "Baostock本地完整日线缓存",
-        "updated_at": "2026-08-18T17:35:55"
+        "updated_at": "2026-08-19T19:01:02"
     }
 }
