@@ -1,6 +1,6 @@
 {
     "initial_capital": 1000000.0,
-    "cash": 134522.0456300003,
+    "cash": 786.2856300002895,
     "holdings": {
         "688180": {
             "name": "君实生物",
@@ -129,6 +129,14 @@
             "buy_date": "2026-07-01",
             "cost": 273.00268,
             "buy_day_low": 2.6
+        },
+        "000582": {
+            "name": "北部湾港",
+            "shares": 12300,
+            "buy_price": 10.87,
+            "buy_date": "2026-08-20",
+            "cost": 133735.76,
+            "buy_day_low": 10.55
         }
     },
     "history": [
@@ -900,11 +908,21 @@
             "fees": 101.81,
             "pnl": -16200.809999999998,
             "reason": "破位止损 (跌破抄底价 ¥19.22)"
+        },
+        {
+            "time": "2026-08-20 15:00:00",
+            "action": "BUY",
+            "code": "000582",
+            "name": "北部湾港",
+            "price": 10.87,
+            "shares": 12300,
+            "fees": 34.76,
+            "reason": "B_伏击 (乖离率:-11.0%)"
         }
     ],
     "_cache_replay": {
-        "last_processed_date": "2026-08-19",
+        "last_processed_date": "2026-08-20",
         "source": "Baostock本地完整日线缓存",
-        "updated_at": "2026-08-19T19:01:02"
+        "updated_at": "2026-08-20T17:36:43"
     }
 }
