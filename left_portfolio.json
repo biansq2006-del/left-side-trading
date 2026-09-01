@@ -1,6 +1,6 @@
 {
     "initial_capital": 1000000.0,
-    "cash": 617.2756300002895,
+    "cash": 88.26563000028955,
     "holdings": {
         "688180": {
             "name": "君实生物",
@@ -137,6 +137,14 @@
             "buy_date": "2026-08-24",
             "cost": 128208.33,
             "buy_day_low": 16.82
+        },
+        "000539": {
+            "name": "粤电力A",
+            "shares": 100,
+            "buy_price": 5.24,
+            "buy_date": "2026-09-01",
+            "cost": 529.01,
+            "buy_day_low": 5.12
         }
     },
     "history": [
@@ -960,11 +968,21 @@
             "fees": 5.26,
             "pnl": -29.269999999999982,
             "reason": "破位止损 (跌破抄底价 ¥5.23)"
+        },
+        {
+            "time": "2026-09-01 15:00:00",
+            "action": "BUY",
+            "code": "000539",
+            "name": "粤电力A",
+            "price": 5.24,
+            "shares": 100,
+            "fees": 5.01,
+            "reason": "B_伏击 (乖离率:-6.6%)"
         }
     ],
     "_cache_replay": {
-        "last_processed_date": "2026-08-31",
+        "last_processed_date": "2026-09-01",
         "source": "Baostock本地完整日线缓存",
-        "updated_at": "2026-09-01T11:03:31"
+        "updated_at": "2026-09-01T17:34:16"
     }
 }
