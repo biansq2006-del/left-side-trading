@@ -1,6 +1,6 @@
 {
     "initial_capital": 1000000.0,
-    "cash": 577.125630000286,
+    "cash": 141.0056300002907,
     "holdings": {
         "688180": {
             "name": "君实生物",
@@ -138,13 +138,13 @@
             "cost": 529.01,
             "buy_day_low": 5.12
         },
-        "600363": {
-            "name": "联创光电",
-            "shares": 7600,
-            "buy_price": 16.34,
-            "buy_date": "2026-09-02",
-            "cost": 124216.29,
-            "buy_day_low": 16.01
+        "300274": {
+            "name": "阳光电源",
+            "shares": 1400,
+            "buy_price": 87.08,
+            "buy_date": "2026-09-03",
+            "cost": 121943.7,
+            "buy_day_low": 86.01
         }
     },
     "history": [
@@ -999,11 +999,32 @@
             "shares": 7600,
             "fees": 32.29,
             "reason": "B_伏击 (乖离率:-14.7%)"
+        },
+        {
+            "time": "2026-09-03 15:00:00",
+            "action": "SELL",
+            "code": "600363",
+            "name": "联创光电",
+            "price": 16.0,
+            "shares": 7600,
+            "fees": 92.42,
+            "pnl": -2708.709999999992,
+            "reason": "破位止损 (跌破抄底价 ¥16.01)"
+        },
+        {
+            "time": "2026-09-03 15:00:00",
+            "action": "BUY",
+            "code": "300274",
+            "name": "阳光电源",
+            "price": 87.08,
+            "shares": 1400,
+            "fees": 31.7,
+            "reason": "B_伏击 (乖离率:-19.3%)"
         }
     ],
     "_cache_replay": {
-        "last_processed_date": "2026-09-02",
+        "last_processed_date": "2026-09-04",
         "source": "Baostock本地完整日线缓存",
-        "updated_at": "2026-09-02T17:33:05"
+        "updated_at": "2026-09-04T22:06:53"
     }
 }
