@@ -1,6 +1,6 @@
 {
     "initial_capital": 1000000.0,
-    "cash": 141.0056300002907,
+    "cash": 643.7456300002907,
     "holdings": {
         "688180": {
             "name": "君实生物",
@@ -129,14 +129,6 @@
             "buy_date": "2026-07-01",
             "cost": 273.00268,
             "buy_day_low": 2.6
-        },
-        "000539": {
-            "name": "粤电力A",
-            "shares": 100,
-            "buy_price": 5.24,
-            "buy_date": "2026-09-01",
-            "cost": 529.01,
-            "buy_day_low": 5.12
         },
         "300274": {
             "name": "阳光电源",
@@ -1020,11 +1012,22 @@
             "shares": 1400,
             "fees": 31.7,
             "reason": "B_伏击 (乖离率:-19.3%)"
+        },
+        {
+            "time": "2026-09-07 15:00:00",
+            "action": "SELL",
+            "code": "000539",
+            "name": "粤电力A",
+            "price": 5.08,
+            "shares": 100,
+            "fees": 5.26,
+            "pnl": -26.269999999999982,
+            "reason": "破位止损 (跌破抄底价 ¥5.12)"
         }
     ],
     "_cache_replay": {
-        "last_processed_date": "2026-09-04",
+        "last_processed_date": "2026-09-07",
         "source": "Baostock本地完整日线缓存",
-        "updated_at": "2026-09-07T17:31:55"
+        "updated_at": "2026-09-07T18:10:05"
     }
 }
