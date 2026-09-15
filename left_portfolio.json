@@ -1,6 +1,6 @@
 {
     "initial_capital": 1000000.0,
-    "cash": 642.0356300003041,
+    "cash": 107.02563000030409,
     "holdings": {
         "688180": {
             "name": "君实生物",
@@ -161,6 +161,14 @@
             "buy_date": "2026-09-11",
             "cost": 50833.21,
             "buy_day_low": 40.34
+        },
+        "000725": {
+            "name": "京东方A",
+            "shares": 100,
+            "buy_price": 5.3,
+            "buy_date": "2026-09-14",
+            "cost": 535.01,
+            "buy_day_low": 5.23
         }
     },
     "history": [
@@ -1119,11 +1127,21 @@
             "shares": 1200,
             "fees": 13.21,
             "reason": "B_伏击 (乖离率:-11.8%)"
+        },
+        {
+            "time": "2026-09-14 15:00:00",
+            "action": "BUY",
+            "code": "000725",
+            "name": "京东方A",
+            "price": 5.3,
+            "shares": 100,
+            "fees": 5.01,
+            "reason": "B_伏击 (乖离率:-8.1%)"
         }
     ],
     "_cache_replay": {
-        "last_processed_date": "2026-09-11",
+        "last_processed_date": "2026-09-15",
         "source": "Baostock本地完整日线缓存",
-        "updated_at": "2026-09-11T17:33:37"
+        "updated_at": "2026-09-15T21:17:28"
     }
 }
