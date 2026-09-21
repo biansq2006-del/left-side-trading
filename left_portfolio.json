@@ -1,6 +1,6 @@
 {
     "initial_capital": 1000000.0,
-    "cash": 107.02563000030409,
+    "cash": 128.10563000029651,
     "holdings": {
         "688180": {
             "name": "君实生物",
@@ -130,14 +130,6 @@
             "cost": 273.00268,
             "buy_day_low": 2.6
         },
-        "688361": {
-            "name": "中科飞测",
-            "shares": 200,
-            "buy_price": 308.79,
-            "buy_date": "2026-09-10",
-            "cost": 61774.06,
-            "buy_day_low": 301.0
-        },
         "600460": {
             "name": "士兰微",
             "shares": 100,
@@ -169,6 +161,14 @@
             "buy_date": "2026-09-14",
             "cost": 535.01,
             "buy_day_low": 5.23
+        },
+        "000582": {
+            "name": "北部湾港",
+            "shares": 7800,
+            "buy_price": 9.91,
+            "buy_date": "2026-09-21",
+            "cost": 77318.1,
+            "buy_day_low": 9.78
         }
     },
     "history": [
@@ -1137,11 +1137,32 @@
             "shares": 100,
             "fees": 5.01,
             "reason": "B_伏击 (乖离率:-8.1%)"
+        },
+        {
+            "time": "2026-09-21 15:00:00",
+            "action": "SELL",
+            "code": "688361",
+            "name": "中科飞测",
+            "price": 386.99,
+            "shares": 200,
+            "fees": 58.82,
+            "pnl": 15565.119999999995,
+            "reason": "S_落袋 (触碰上轨阻力区)"
+        },
+        {
+            "time": "2026-09-21 15:00:00",
+            "action": "BUY",
+            "code": "000582",
+            "name": "北部湾港",
+            "price": 9.91,
+            "shares": 7800,
+            "fees": 20.1,
+            "reason": "B_伏击 (乖离率:-10.1%)"
         }
     ],
     "_cache_replay": {
-        "last_processed_date": "2026-09-18",
+        "last_processed_date": "2026-09-21",
         "source": "Baostock本地完整日线缓存",
-        "updated_at": "2026-09-18T17:47:37"
+        "updated_at": "2026-09-21T17:41:16"
     }
 }
