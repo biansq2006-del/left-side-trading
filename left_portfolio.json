@@ -1,6 +1,6 @@
 {
     "initial_capital": 1000000.0,
-    "cash": 128.10563000029651,
+    "cash": 3396.2756300002948,
     "holdings": {
         "688180": {
             "name": "君实生物",
@@ -162,13 +162,13 @@
             "cost": 535.01,
             "buy_day_low": 5.23
         },
-        "000582": {
-            "name": "北部湾港",
-            "shares": 7800,
-            "buy_price": 9.91,
-            "buy_date": "2026-09-21",
-            "cost": 77318.1,
-            "buy_day_low": 9.78
+        "300803": {
+            "name": "指南针",
+            "shares": 1200,
+            "buy_price": 58.25,
+            "buy_date": "2026-09-23",
+            "cost": 69918.17,
+            "buy_day_low": 57.22
         }
     },
     "history": [
@@ -1158,11 +1158,32 @@
             "shares": 7800,
             "fees": 20.1,
             "reason": "B_伏击 (乖离率:-10.1%)"
+        },
+        {
+            "time": "2026-09-23 15:00:00",
+            "action": "SELL",
+            "code": "000582",
+            "name": "北部湾港",
+            "price": 9.39,
+            "shares": 7800,
+            "fees": 55.66,
+            "pnl": -4131.760000000009,
+            "reason": "破位止损 (跌破抄底价 ¥9.78)"
+        },
+        {
+            "time": "2026-09-23 15:00:00",
+            "action": "BUY",
+            "code": "300803",
+            "name": "指南针",
+            "price": 58.25,
+            "shares": 1200,
+            "fees": 18.17,
+            "reason": "B_伏击 (乖离率:-21.9%)"
         }
     ],
     "_cache_replay": {
-        "last_processed_date": "2026-09-22",
+        "last_processed_date": "2026-09-23",
         "source": "Baostock本地完整日线缓存",
-        "updated_at": "2026-09-22T17:32:12"
+        "updated_at": "2026-09-23T17:32:16"
     }
 }
