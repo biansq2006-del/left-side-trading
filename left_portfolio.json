@@ -1,6 +1,6 @@
 {
     "initial_capital": 1000000.0,
-    "cash": 71144.7456300003,
+    "cash": 105.41563000028896,
     "holdings": {
         "688180": {
             "name": "君实生物",
@@ -161,6 +161,22 @@
             "buy_date": "2026-09-14",
             "cost": 535.01,
             "buy_day_low": 5.23
+        },
+        "000582": {
+            "name": "北部湾港",
+            "shares": 7700,
+            "buy_price": 9.15,
+            "buy_date": "2026-09-28",
+            "cost": 70473.32,
+            "buy_day_low": 8.88
+        },
+        "601212": {
+            "name": "白银有色",
+            "shares": 100,
+            "buy_price": 5.61,
+            "buy_date": "2026-09-29",
+            "cost": 566.01,
+            "buy_day_low": 5.35
         }
     },
     "history": [
@@ -1182,11 +1198,31 @@
             "fees": 51.53,
             "pnl": -2169.699999999997,
             "reason": "破位止损 (跌破抄底价 ¥57.22)"
+        },
+        {
+            "time": "2026-09-28 15:00:00",
+            "action": "BUY",
+            "code": "000582",
+            "name": "北部湾港",
+            "price": 9.15,
+            "shares": 7700,
+            "fees": 18.32,
+            "reason": "B_伏击 (乖离率:-14.6%)"
+        },
+        {
+            "time": "2026-09-29 15:00:00",
+            "action": "BUY",
+            "code": "601212",
+            "name": "白银有色",
+            "price": 5.61,
+            "shares": 100,
+            "fees": 5.01,
+            "reason": "B_伏击 (乖离率:-12.9%)"
         }
     ],
     "_cache_replay": {
-        "last_processed_date": "2026-09-24",
+        "last_processed_date": "2026-10-08",
         "source": "Baostock本地完整日线缓存",
-        "updated_at": "2026-09-24T21:47:11"
+        "updated_at": "2026-10-08T17:32:05"
     }
 }
