@@ -1,6 +1,6 @@
 {
     "initial_capital": 1000000.0,
-    "cash": 105.41563000028896,
+    "cash": 63.92563000028895,
     "holdings": {
         "688180": {
             "name": "君实生物",
@@ -41,14 +41,6 @@
             "buy_date": "2026-03-27",
             "cost": 595.0059,
             "buy_day_low": 5.76
-        },
-        "000039": {
-            "name": "中集集团",
-            "shares": 100,
-            "buy_price": 10.72,
-            "buy_date": "2026-04-03",
-            "cost": 1077.01072,
-            "buy_day_low": 10.33
         },
         "002145": {
             "name": "钛能化学",
@@ -177,6 +169,22 @@
             "buy_date": "2026-09-29",
             "cost": 566.01,
             "buy_day_low": 5.35
+        },
+        "601118": {
+            "name": "海南橡胶",
+            "shares": 100,
+            "buy_price": 5.2,
+            "buy_date": "2026-11-03",
+            "cost": 525.01,
+            "buy_day_low": 5.07
+        },
+        "600516": {
+            "name": "方大炭素",
+            "shares": 100,
+            "buy_price": 4.46,
+            "buy_date": "2026-11-03",
+            "cost": 451.0,
+            "buy_day_low": 4.35
         }
     },
     "history": [
@@ -1218,11 +1226,42 @@
             "shares": 100,
             "fees": 5.01,
             "reason": "B_伏击 (乖离率:-12.9%)"
+        },
+        {
+            "time": "2026-11-03 15:00:00",
+            "action": "SELL",
+            "code": "000039",
+            "name": "中集集团",
+            "price": 9.4,
+            "shares": 100,
+            "fees": 5.48,
+            "pnl": -142.49072,
+            "reason": "S_落袋 (触碰上轨阻力区)"
+        },
+        {
+            "time": "2026-11-03 15:00:00",
+            "action": "BUY",
+            "code": "601118",
+            "name": "海南橡胶",
+            "price": 5.2,
+            "shares": 100,
+            "fees": 5.01,
+            "reason": "B_伏击 (乖离率:-15.9%)"
+        },
+        {
+            "time": "2026-11-03 15:00:00",
+            "action": "BUY",
+            "code": "600516",
+            "name": "方大炭素",
+            "price": 4.46,
+            "shares": 100,
+            "fees": 5.0,
+            "reason": "B_伏击 (乖离率:-11.2%)"
         }
     ],
     "_cache_replay": {
-        "last_processed_date": "2026-11-02",
+        "last_processed_date": "2026-11-03",
         "source": "Baostock本地完整日线缓存",
-        "updated_at": "2026-11-02T17:33:21"
+        "updated_at": "2026-11-03T17:43:00"
     }
 }
