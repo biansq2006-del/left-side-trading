@@ -1,6 +1,6 @@
 {
     "initial_capital": 1000000.0,
-    "cash": 63.92563000028895,
+    "cash": 486.7056300002889,
     "holdings": {
         "688180": {
             "name": "君实生物",
@@ -177,14 +177,6 @@
             "buy_date": "2026-11-03",
             "cost": 525.01,
             "buy_day_low": 5.07
-        },
-        "600516": {
-            "name": "方大炭素",
-            "shares": 100,
-            "buy_price": 4.46,
-            "buy_date": "2026-11-03",
-            "cost": 451.0,
-            "buy_day_low": 4.35
         }
     },
     "history": [
@@ -1257,11 +1249,22 @@
             "shares": 100,
             "fees": 5.0,
             "reason": "B_伏击 (乖离率:-11.2%)"
+        },
+        {
+            "time": "2026-11-12 15:00:00",
+            "action": "SELL",
+            "code": "600516",
+            "name": "方大炭素",
+            "price": 4.28,
+            "shares": 100,
+            "fees": 5.22,
+            "pnl": -28.220000000000027,
+            "reason": "破位止损 (跌破抄底价 ¥4.35)"
         }
     ],
     "_cache_replay": {
-        "last_processed_date": "2026-11-11",
+        "last_processed_date": "2026-11-12",
         "source": "Baostock本地完整日线缓存",
-        "updated_at": "2026-11-11T17:32:52"
+        "updated_at": "2026-11-12T17:32:49"
     }
 }
