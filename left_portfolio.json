@@ -1,6 +1,6 @@
 {
     "initial_capital": 1000000.0,
-    "cash": 486.7056300002889,
+    "cash": 22.70563000028892,
     "holdings": {
         "688180": {
             "name": "君实生物",
@@ -177,6 +177,14 @@
             "buy_date": "2026-11-03",
             "cost": 525.01,
             "buy_day_low": 5.07
+        },
+        "000630": {
+            "name": "铜陵有色",
+            "shares": 100,
+            "buy_price": 4.59,
+            "buy_date": "2026-11-17",
+            "cost": 464.0,
+            "buy_day_low": 4.41
         }
     },
     "history": [
@@ -1260,11 +1268,21 @@
             "fees": 5.22,
             "pnl": -28.220000000000027,
             "reason": "破位止损 (跌破抄底价 ¥4.35)"
+        },
+        {
+            "time": "2026-11-17 15:00:00",
+            "action": "BUY",
+            "code": "000630",
+            "name": "铜陵有色",
+            "price": 4.59,
+            "shares": 100,
+            "fees": 5.0,
+            "reason": "B_伏击 (乖离率:-6.1%)"
         }
     ],
     "_cache_replay": {
-        "last_processed_date": "2026-11-16",
+        "last_processed_date": "2026-11-17",
         "source": "Baostock本地完整日线缓存",
-        "updated_at": "2026-11-16T17:33:11"
+        "updated_at": "2026-11-17T21:10:57"
     }
 }
